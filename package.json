@@ -1,0 +1,51 @@
+{
+  "name": "proxy-rotator",
+  "version": "1.0.0",
+  "description": "A nodejs api to interact with guerrilamail api",
+  "author": "Ravin Mor",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/ravinmor/proxy-rotator#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinmor/proxy-rotator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ravinmor/proxy-rotator/issues"
+  },
+  "keywords": [
+    "proxy-rotator",
+    "proxy",
+    "anonimity"
+  ],
+  "files": [
+    "./dist"
+  ],
+  "types": "./dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --no-cache",
+    "lint": "eslint --ignore-path .eslintignore --ext .js,.ts .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "prepare": "yarn build",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@tsconfig/node14": "^14.1.0",
+    "@types/jest": "^29.5.3",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.9.0",
+    "jest": "^29.6.2",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "axios": "0.27.2"
+  }
+}
