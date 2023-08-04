@@ -30,7 +30,13 @@
   },
   "prepare": "yarn build",
   "dependencies": {
-    "axios": "^1.4.0"
+    "@types/user-agents": "^1.0.2",
+    "axios": "^1.4.0",
+    "https-proxy-agent": "^7.0.1",
+    "puppeteer": "^20.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.0.1444"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",

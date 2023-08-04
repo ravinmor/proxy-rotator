@@ -1,11 +1,3 @@
-class ProxyRotator {
-  constructor() {}
-
-  async getData() {}
-
-  async setProxies() {}
-
-  async setRequests() {}
-}
+import ProxyRotator from './services/ProxyRotator'
 
 export default ProxyRotator
